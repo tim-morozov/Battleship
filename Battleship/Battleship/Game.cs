@@ -8,5 +8,12 @@ namespace Battleship
 {
     class Game
     {
+        Player playerOne;
+        Player playerTwo;
+        public Game()
+        {
+            playerOne = new Player();
+            playerTwo = new Player();
+        }
     }
 }
