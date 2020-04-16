@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    class Battleship
+    class Battleship : Ship
     {
+        public Battleship()
+        {
+            type = "Battleship";
+            size = 4;
+        }
     }
 }

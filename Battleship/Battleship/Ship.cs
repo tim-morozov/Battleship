@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    class Ship
+   abstract class Ship
     {
+        protected string type;
+        protected int size;
     }
 }
