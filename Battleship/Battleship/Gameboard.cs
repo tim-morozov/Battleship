@@ -8,5 +8,7 @@ namespace Battleship
 {
     class Gameboard
     {
+        int[,] gameBoard = new int[20, 20];
+        
     }
 }
