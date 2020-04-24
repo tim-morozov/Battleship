@@ -10,9 +10,11 @@ namespace Battleship
     {
         string name;
         List<Ship> allShips = new List<Ship>();
+        Gameboard gameboard;
 
         public Player()
         {
+            gameboard = new Gameboard();
             name = Console.ReadLine();
             Battleship battleship = new Battleship();
             Carrier carrier = new Carrier();
